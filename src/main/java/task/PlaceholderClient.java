@@ -92,7 +92,7 @@ public class PlaceholderClient {
                 return updatedUser;
             }
         } else {
-            System.out.println("Error: " + responseCode);
+            System.out.println("Update. Status Code: " + responseCode);
         }
 
         return null;
